@@ -880,7 +880,7 @@ static void __init omap4_panda_reserve(void)
 	omap_reserve();
 }
 
-MACHINE_START(OMAP4_PANDA, "OMAP4 Panda board")
+MACHINE_START(OMAP4_PANDA, "omap4pandaboard")
 	/* Maintainer: David Anders - Texas Instruments Inc */
 	.boot_params	= 0x80000100,
 	.reserve	= omap4_panda_reserve,
